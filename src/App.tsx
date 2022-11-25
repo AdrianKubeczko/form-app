@@ -5,7 +5,6 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import "./App.css";
 import SignInForm from "./components/SignInForm";
 import PersonalDataForm from "./components/PersonalDataForm";
 import PersonalDataDisplay from "./components/PersonalDataDisplay";
