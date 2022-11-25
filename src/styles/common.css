@@ -1,0 +1,58 @@
+.contentWrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    align-items: center;
+}
+
+.formColumnsContainer {
+    display: flex;
+}
+
+.formColumn {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tableContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.tableCell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    max-width: 500px;
+    height: 50px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.tableHeader {
+    font-weight: bold;
+    background-color: #1976d2;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    height: 50px;
+    background-color: #1976d2;
+}
+
+.linkContainer {
+    margin: 10px 20px 10px 20px;
+    color: white;
+    font-weight: bold;
+}
